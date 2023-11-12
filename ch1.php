@@ -60,4 +60,34 @@ if ($num % 2 == 0)
   echo "$num is Even";
 else
   echo "$num is Odd";
+
+echo "<hr>";
+
+$num=1;
+while($num <=10){
+  echo "number =  $num <br>";
+  $num++;
+};
+
+echo "<hr>";
+
+$num=10;
+do{
+  echo "number =  $num <br>";
+  $num--;
+}while($num >= 1);
+echo "<hr>";
+function number() {
+  for($i=1 ;$i<=6 ; $i++){
+    echo "number of i : $i <br>";
+  }
+};
+
+number()
+
+
+
+
+
+
 ?>
